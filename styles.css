@@ -1,0 +1,58 @@
+body{
+    width: 100vw;
+    height:  100vh;
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+.line{
+   animation: animacion1 4s infinite linear;
+}
+
+
+@keyframes animacion1{
+    from{
+        transform: rotateZ(0deg);
+        transform-origin: 50% 50%;
+    }
+    
+  to{
+    transform: rotateZ(360deg);
+    transform-origin: 50% 50%;
+  }
+}
+
+/* 
+@keyframes animacion1{
+    0%{ 
+        width: 200px;
+        height: 100px;
+        x: 150px;
+        y: 150px;
+        fill:rgb(53, 106, 141);
+    }
+    50%{
+        width: 100px;
+        height: 100px;
+        x: 200px;
+        y: 150px;
+        fill:rgb(100, 173, 77);
+        rx: 50%;
+        ry: 50%;
+    }
+    100%{
+        width: 100px;
+        height: 100px;
+        x: 200px;
+        y: 150px;
+        fill:rgb(100, 173, 77);
+        rx: 50%;
+        ry: 50%;
+    }
+} */
